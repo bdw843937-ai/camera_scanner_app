@@ -1,0 +1,16 @@
+name: camera_scanner_app
+description: Simple document scanner using the camera.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+  path_provider: ^2.1.0
+
+flutter:
+  uses-material-design: true
